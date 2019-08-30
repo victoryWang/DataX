@@ -14,6 +14,7 @@ public enum DataBaseType {
     Tddl("mysql", "com.mysql.jdbc.Driver"),
     DRDS("drds", "com.mysql.jdbc.Driver"),
     Oracle("oracle", "oracle.jdbc.OracleDriver"),
+    OracleNds("oracleNds", "sgcc.nds.jdbc.driver.NdsDriver"),
     SQLServer("sqlserver", "com.microsoft.sqlserver.jdbc.SQLServerDriver"),
     PostgreSQL("postgresql", "org.postgresql.Driver"),
     RDBMS("rdbms", "com.alibaba.datax.plugin.rdbms.util.DataBaseType"),
